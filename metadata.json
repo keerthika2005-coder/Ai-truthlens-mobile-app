@@ -1,0 +1,6 @@
+{
+  "name": "AI TruthLens",
+  "description": "AI-Generated Image & Video Detection System using deep learning frame-by-frame and visual inference.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
