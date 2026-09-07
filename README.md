@@ -188,7 +188,44 @@ All 11 unit and integration tests will execute, validating:
 
 ---
 
-## Ethical Disclosure & Legal Disclaimer
+## Quick Start (Node.js / Full-Stack React + Express)
+
+### 1. Prerequisites
+- **Node.js**: Version 18 or higher (Download from [nodejs.org](https://nodejs.org))
+- **npm**: Included with Node.js
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. (Optional) Set up Environment Variables
+Copy `.env.example` to `.env`:
+```bash
+cp .env.example .env
+```
+Add your Gemini API key inside `.env` if you want AI-assisted multimodal reasoning:
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+PORT=3000
+```
+
+### 4. Run Development Server
+```bash
+npm run dev
+```
+Open your browser at:
+```
+http://localhost:3000
+```
+
+### 5. Build and Run Production
+```bash
+npm run build
+npm start
+```
+
+---
 
 > **TruthLens uses AI-based image analysis. Results are predictions and may not always be correct.**
 
